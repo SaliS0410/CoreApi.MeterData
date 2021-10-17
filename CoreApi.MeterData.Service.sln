@@ -1,0 +1,49 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30717.126
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CoreApi.MeterData.Service", "CoreApi.MeterData.Service\CoreApi.MeterData.Service.csproj", "{E869395A-056E-4E06-8C82-0F1318DC7D2A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CoreApi.MeterData.RepositoryEf", "CoreApi.MeterData.RepositoryEf\CoreApi.MeterData.RepositoryEf.csproj", "{E7086438-2E29-4C32-B5E9-5E79373BF15D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CoreApi.MeterData.BL", "CoreApi.MeterData.BL\CoreApi.MeterData.BL.csproj", "{760887F3-CF90-4266-9C9E-B1E2EC58CFBF}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CoreApi.MeterData.Dal", "CoreApi.MeterData.Dal\CoreApi.MeterData.Dal.csproj", "{A326EDC6-D902-47D1-B334-3811D5E7E0B0}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CoreApi.MeterData.UnitTest", "CoreApi.MeterData.UnitTest\CoreApi.MeterData.UnitTest.csproj", "{EB1BA14B-E57C-4F0A-9911-C39D4305D958}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E869395A-056E-4E06-8C82-0F1318DC7D2A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E869395A-056E-4E06-8C82-0F1318DC7D2A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E869395A-056E-4E06-8C82-0F1318DC7D2A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E869395A-056E-4E06-8C82-0F1318DC7D2A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E7086438-2E29-4C32-B5E9-5E79373BF15D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E7086438-2E29-4C32-B5E9-5E79373BF15D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E7086438-2E29-4C32-B5E9-5E79373BF15D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E7086438-2E29-4C32-B5E9-5E79373BF15D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{760887F3-CF90-4266-9C9E-B1E2EC58CFBF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{760887F3-CF90-4266-9C9E-B1E2EC58CFBF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{760887F3-CF90-4266-9C9E-B1E2EC58CFBF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{760887F3-CF90-4266-9C9E-B1E2EC58CFBF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A326EDC6-D902-47D1-B334-3811D5E7E0B0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A326EDC6-D902-47D1-B334-3811D5E7E0B0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A326EDC6-D902-47D1-B334-3811D5E7E0B0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A326EDC6-D902-47D1-B334-3811D5E7E0B0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EB1BA14B-E57C-4F0A-9911-C39D4305D958}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EB1BA14B-E57C-4F0A-9911-C39D4305D958}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EB1BA14B-E57C-4F0A-9911-C39D4305D958}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EB1BA14B-E57C-4F0A-9911-C39D4305D958}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C7659571-C675-4944-8EF5-6A7D9A7C7C84}
+	EndGlobalSection
+EndGlobal
