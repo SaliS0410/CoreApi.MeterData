@@ -7,8 +7,8 @@ using CoreApi.MeterData.BL;
 
 namespace CoreApi.MeterData.Service.Controllers
 {
-    //[Route("api/[controller]")]
-    //[ApiController]
+    [Route("api/[controller]")]
+    [ApiController]
     public class MeterDataController : ControllerBase
     {
         private readonly IMediator _mediator;
